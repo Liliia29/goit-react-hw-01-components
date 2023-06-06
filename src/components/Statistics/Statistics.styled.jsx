@@ -3,6 +3,8 @@ import styled from '@emotion/styled';
 export const StatisticsSection = styled.section`
     width: 300px;
     margin: 0 auto 50px;
+    background-color: #f9f9f9;
+    padding-top: 20px;
 `;
 
 export const Title = styled.section`
