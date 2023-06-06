@@ -7,14 +7,20 @@ export const FriendList = styled.ul`
     width: 280px;
 
     margin: 0 auto 50px;
+
+    
 `;
 
 export const FriendItem = styled.li`
-    align-items: center;
+display: flex;    
+align-items: center;
     column-gap: 10px;
     padding: 10px;
 
     border-radius: 2px;
+    box-shadow: 1px 2px 8px -4px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 1px 2px 8px -4px rgba(0,0,0,0.65);
+    -moz-box-shadow: 1px 2px 8px -4px rgba(0,0,0,0.65);
 `;
 
 export const OnlineStatus = styled.span`

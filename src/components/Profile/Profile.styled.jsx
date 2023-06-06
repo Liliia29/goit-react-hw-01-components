@@ -6,7 +6,7 @@ export const ProfileWrapper = styled.div`
     margin: 50px auto;
     padding: 30px 0 0;
     overflow: hidden;
-
+    background-color: #f9f9f9;
     border-radius: 5px;
 `;
 
@@ -23,7 +23,7 @@ export const Avatar = styled.img`
     width: 130px;
     margin-bottom: 35px;
 
-    background-color: aqua;
+    background-color: #747474;
     border-radius: 50%;
 `;
 
@@ -37,21 +37,21 @@ export const Tag = styled.p`
     margin-bottom: 10px;
     font-size: 14px;
     font-weight: 600;
-    color: black;
+    color: #929292;
 `;
 
 export const Location = styled.p`
     font-size: 14px;
     font-weight: 600;
-    color: black;
+    color: #929292;
 `;
 
 export const Stats = styled.ul`
     display: flex;
     justify-content: space-between;
 
-    border-top: 1px solid skyblue;
-    background-color: beige;
+    border-top: 1px solid #CECECE;
+    background-color: #F3F3F3;
 `;
 
 export const StatsItem = styled.li`
@@ -63,16 +63,16 @@ flex-direction: column;
 
     padding: 15px 5px;
     :not(:last-child){
-        border-right: 1px solid #e8e8e8;
+        border-right: 1px solid #CECECE;
     }
 
 `;
 
 export const Label = styled.span`
-display: block;
-font-size: 12px;
-  font-weight: 600;
-  color: black;
+    display: bloc;
+    font-size: 12px;
+    font-weight: 600;
+    color: #929292;
 `;
 
 export const Quantity = styled.span`

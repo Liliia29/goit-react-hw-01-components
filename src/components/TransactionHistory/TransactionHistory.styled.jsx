@@ -11,14 +11,18 @@ export const TransactionsTable = styled.table`
 export const TableHend = styled.thead`
     height: 25px;
     tr{
-    background-color: #009879;
+    background-color: #77ADAD;
     color: #ffffff;
+    
     }
+    
 `;
 
 export const TableBody = styled.tbody`
     tr{
         border-bottom: 1px solid #dddddd;
+        border-right: 1px solid #dddddd;
+        border-left: 1px solid #dddddd;
     }
 
     tr:nth-of-type(even){
@@ -52,4 +56,5 @@ export const TransactionType = styled.td`
 export const GeneralTable = styled.td`
     padding: 12px 15px;
     width: calc(100% / 3);
+    border-left: 1px solid #dddddd;
 `;

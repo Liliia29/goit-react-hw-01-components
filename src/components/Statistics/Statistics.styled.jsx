@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const StatisticsSection = styled.section`
-    width: 360px;
+    width: 300px;
     margin: 0 auto 50px;
 `;
 
@@ -25,8 +25,11 @@ export const StatsItem = styled.li`
     flex: 1 1 0px;
     gap: 6px;
 
-    background-color: blueviolet;
+    background-color: #AD7777;
     padding: 16px 0;
+    :not(:last-child){
+        border-right: 1px solid #CECECE;
+    }
 `;
 
 export const Label = styled.span`
